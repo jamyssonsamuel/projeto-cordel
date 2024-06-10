@@ -6,7 +6,7 @@
 
 :root{
     --fonte1:  Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: 'Passion One', cursive;
+    --fonte2: "Passion One", cursive;
     --fonte3: "Sriracha", cursive;;
 }
 
@@ -31,7 +31,7 @@ header > h1{
     padding-top: 50px; 
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 8vw;
+    font-size: 10vw;
 }
 
 header>p{
@@ -42,11 +42,12 @@ header>p{
 a{
     color: white;
     font-weight: bolder;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover{
     color: rgb(88, 88, 255);
+    text-decoration: underline;
 }
 section{
     padding-top: 10vh;
@@ -58,7 +59,7 @@ section{
 }
 
 section > p{
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 .normal{
